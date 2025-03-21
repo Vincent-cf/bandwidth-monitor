@@ -1,0 +1,14 @@
+compatibility_date = "2025-03-21"
+main = "src/index.ts"
+
+name = "bandwidth-monitor"
+
+[vars]
+WEBHOOK_URL = "YOUR_WEBHOOK_URL_HERE"
+BANDWIDTH_THRESHOLD_BITS = "10" # Threshold in Mbps
+PERIOD = "1" # Monitoring period in minutes
+ACCOUNT_ID = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+CLOUDFLARE_API_TOKEN = "YOUR_API_TOKEN_HERE"
+
+[triggers]
+crons = ["* * * * *"] # Runs every minute
