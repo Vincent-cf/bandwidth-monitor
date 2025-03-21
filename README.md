@@ -1,4 +1,4 @@
-# Cloudflare Bandwidth Monitor 🚀
+# Cloudflare Magic Clean Bandwidth Monitor 🚀
 
 This Cloudflare Worker monitors network bandwidth using the GraphQL API and sends alerts via a webhook when usage exceeds a predefined threshold.
 
